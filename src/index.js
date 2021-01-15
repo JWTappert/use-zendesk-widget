@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
+import PropTypes from 'prop-types';
 
-export default function useAdminZendeskWidget(key, options) {
+export default function useZendeskWidget(key, options) {
   useEffect(() => {
     const zendeskInitScript = document.createElement('script');
     zendeskInitScript.id = 'ze-snippet';
@@ -24,4 +25,9 @@ export const ZendeskWidget = (...args) => {
   } else {
     console.warn("Zendesk has not finished booting");
   }
+}
+
+useZendeskWidget.propTypes = {
+  key: PropTypes.string,
+  options: PropTypes.object
 }
