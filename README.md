@@ -12,7 +12,7 @@ At the root of your application, or really in any place that is hook friendly, d
 import useZendeskWidget from 'use-zendesk-widget';
 
 const YourApp = () => {
-  useAdminZendeskWidget("your-zendesk-key-here", {
+  useZendeskWidget("your-zendesk-key-here", {
     webWidget: {
       color: { theme: '#61dafb' }
     }
