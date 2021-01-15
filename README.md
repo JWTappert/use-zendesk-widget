@@ -23,6 +23,6 @@ const YourApp = () => {
 ### Result
 ![Screen Shot 2021-01-15 at 7 39 57 AM](https://user-images.githubusercontent.com/12875898/104747136-011c0a80-5705-11eb-976f-529e541841d0.png)
 # Resources
-[Zendesk Zeb Widget Documentation](https://developer.zendesk.com/embeddables/docs/widget/introduction)
-# Lisence
+[Zendesk Web Widget Documentation](https://developer.zendesk.com/embeddables/docs/widget/introduction)
+# License
 MIT
