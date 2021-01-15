@@ -1,6 +1,6 @@
 {
   "name": "use-zendesk-widget",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "React hook to add the zendesk widget to your react app!",
   "main": "src/index.js",
   "author": "Justin Tappert <tappertwj@gmail.com>",
