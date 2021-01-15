@@ -1,11 +1,27 @@
 {
   "name": "use-zendesk-widget",
-  "version": "1.0.4",
+  "version": "0.0.5",
   "description": "React hook to add the zendesk widget to your react app!",
   "main": "src/index.js",
   "author": "Justin Tappert <tappertwj@gmail.com>",
   "license": "MIT",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JWTappert/use-zendesk-widget.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JWTappert/use-zendesk-widget/issues"
+  },
+  "homepage": "https://github.com/JWTappert/use-zendesk-widget#readme",
+  "keywords": [
+    "zendesk",
+    "hook",
+    "web",
+    "widget",
+    "embedded",
+    "support"
+  ],
   "dependencies": {
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
